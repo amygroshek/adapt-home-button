@@ -1,0 +1,54 @@
+{
+  "type":"object",
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "id": "http://jsonschema.net",
+  "$ref": "http://localhost/plugins/content/component/model.schema",
+  "properties":{
+    "_supportedLayout": {
+      "type": "string",
+      "required": true,
+      "enum": ["full-width", "half-width", "both"],
+      "default": "both",
+      "editorOnly": true
+    },
+    "_hoverText": {
+      "type": "string",
+      "required": false,
+      "inputType": "Text",
+      "title": "Hover Text",
+      "help": "Text to display when the user hovers over the button",
+      "default": "",
+      "validators": [],
+      "translatable": true
+    },
+    "_requirePageCompletion": {
+      "type": "boolean",
+      "required": true,
+      "inputType": {"type": "Boolean", "options": [true, false]},
+      "title": "Require Page Completion",
+      "help": "Require the page to be complete before enabling the next button",
+      "default": true
+    },
+    "_skipMenus": {
+      "type": "boolean",
+      "required": true,
+      "inputType": {"type": "Boolean", "options": [true, false]},
+      "title": "Skip Menus",
+      "help": "When enabled, the next button will only navigate to pages; if the next content object is a menu, it will display the first page of the menu instead (this setting is ignored if _nextPage is manually specified)",
+      "default": true
+    },
+    "_nextPage": {
+      "type": "string",
+      "required": false,
+      "inputType": "Text",
+      "title": "Override Next Page ID",
+      "help": "Specify the ID of the next content object (menu or page) to override the default behavior",
+      "default": "",
+      "validators": [{
+        "type": "regexp",
+        "regexp": "^[0-9a-f]{24}$",
+        "message": "This must be set to the ID number of another page or menu"
+      }]
+    }    
+  }
+}

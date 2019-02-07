@@ -1,0 +1,36 @@
+{
+  "name": "adapt-next-button",
+  "version": "0.9.8",
+  "framework": "^2.0.0",
+  "authors": [
+    "Daniel Pfeifffer <dpfeiffer@gowithfloat.com>"
+  ],
+  "main": "/js/adapt-next-button.js",
+  "component": "next-button",
+  "displayName": "Next Page Button",
+  "description": "Provides a button for easily navigating to the next page in an Adapt course",
+  "homepage": "https://github.com/gowithfloat/adapt-next-button",
+  "keywords": [
+    "adapt-plugin",
+    "adapt-component"
+  ],
+  "license": "MIT",
+  "targetAttribute": "_nextButton",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "0.9.8",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.9.8",
+    "commit": "9933a6e4484b6610c5001b22c0ab1ccdd72b6ed2"
+  },
+  "_source": "git://github.com/gowithfloat/adapt-next-button.git",
+  "_target": "^0.9.8",
+  "_originalSource": "adapt-next-button",
+  "_direct": true
+}

@@ -1,0 +1,14 @@
+{
+  "_id":"c-30",
+  "_parentId":"b-05",
+  "_type":"component",
+  "_component":"home-button",
+  "_classes":"",
+  "_layout":"left",
+  "title": "Home",
+  "displayTitle": "Home",
+  "label": "Button Label (optional)",
+  "instruction": "Instructions (optional)",
+  "_hoverText": "Return to menu",
+  "_requirePageCompletion": true
+}

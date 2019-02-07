@@ -1,0 +1,13 @@
+<div class="button-inner">
+    <div class="button-widget component-widget">
+        <button class="{{_classes}} homelink" aria-label="{{displayTitle}}" title="{{_hoverText}}" {{#unless _isEnabled}}disabled{{/unless}} data-event="homeButton">{{{displayTitle}}}</button>
+    </div>
+
+    {{#if body}}
+    <div class="{{_component}}-body component-body">
+        <div class="{{_component}}-body-inner component-body-inner">
+            {{{compile_a11y_text body this}}}
+        </div>
+    </div>
+    {{/if}}
+</div>

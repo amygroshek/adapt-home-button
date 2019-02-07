@@ -1,0 +1,27 @@
+{
+  "name": "adapt-home-button",
+  "version": "0.9.8",
+  "framework": "^2.0.0",
+  "authors": [
+    "Amy Groshek <amy@amygroshek.com>"
+  ],
+  "main": "/js/adapt-home-button.js",
+  "component": "home-button",
+  "displayName": "Home Page Button",
+  "description": "Fork of the Continue button. Provides a button for easily navigating back to the navigation menu.",
+  "homepage": "https://github.com/amygroshek/adapt-home-button.git",
+  "keywords": [
+    "adapt-plugin",
+    "adapt-component"
+  ],
+  "license": "MIT",
+  "targetAttribute": "_homeButton",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
