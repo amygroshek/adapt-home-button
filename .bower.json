@@ -1,21 +1,21 @@
 {
-  "name": "adapt-next-button",
+  "name": "adapt-home-button",
   "version": "0.9.8",
   "framework": "^2.0.0",
   "authors": [
-    "Daniel Pfeifffer <dpfeiffer@gowithfloat.com>"
+    "Amy Groshek <amy@amygroshek.com>"
   ],
-  "main": "/js/adapt-next-button.js",
-  "component": "next-button",
-  "displayName": "Next Page Button",
-  "description": "Provides a button for easily navigating to the next page in an Adapt course",
-  "homepage": "https://github.com/gowithfloat/adapt-next-button",
+  "main": "/js/adapt-home-button.js",
+  "component": "home-button",
+  "displayName": "Home Page Button",
+  "description": "Fork of the Next Page Button. Provides a button for easily navigating back to the main menu.",
+  "homepage": "https://github.com/amygroshek/adapt-home-button.git",
   "keywords": [
     "adapt-plugin",
     "adapt-component"
   ],
   "license": "MIT",
-  "targetAttribute": "_nextButton",
+  "targetAttribute": "_homeButton",
   "ignore": [
     "**/.*",
     "node_modules",
@@ -29,8 +29,8 @@
     "tag": "0.9.8",
     "commit": "9933a6e4484b6610c5001b22c0ab1ccdd72b6ed2"
   },
-  "_source": "git://github.com/gowithfloat/adapt-next-button.git",
+  "_source": "git://github.com:amygroshek/adapt-home-button.git",
   "_target": "^0.9.8",
-  "_originalSource": "adapt-next-button",
+  "_originalSource": "adapt-home-button",
   "_direct": true
 }

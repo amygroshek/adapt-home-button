@@ -1,11 +1,11 @@
 adapt-home-button
 =================
-The **Home Page Button** provides a button for easily navigating to the next page in an Adapt course.
+The **Home Page Button** is a fork of the **adapt-next-button** plugin. It provides a button for easily navigating to the main menu.
 
 Settings
 --------
 ### Attributes
-**_component (string)**: This value must be: `next-button`.
+**_component (string)**: This value must be: `home-button`.
 
 **displayTitle (string)**: The title to display on the button.
 
@@ -26,4 +26,4 @@ Limitations
 No known limitations.
 
 -----------
-The **Next Page Button** is a plugin for the Adapt Framework. [Adapt](https://www.adaptlearning.org) is a free and easy to use e-learning authoring tool that creates fully responsive, multi-device, HTML5 e-learning content using the award-winning Adapt developer framework.
+The **Home Page Button** is a plugin for the Adapt Framework. [Adapt](https://www.adaptlearning.org) is a free and easy to use e-learning authoring tool that creates fully responsive, multi-device, HTML5 e-learning content using the award-winning Adapt developer framework.

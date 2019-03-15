@@ -7,8 +7,8 @@
   "_layout":"left",
   "title": "Home",
   "displayTitle": "Home",
-  "label": "Button Label (optional)",
-  "instruction": "Instructions (optional)",
+  "label": "Return to menu",
+  "instruction": "(Optional) Select this button to return to the main menu",
   "_hoverText": "Return to menu",
   "_requirePageCompletion": true
 }
